@@ -1,0 +1,13 @@
+[package]
+name = "actordemo"
+version = "0.1.0"
+authors = ["awsgus"]
+[dependencies]
+actix = "0.7"
+futures = "0.1.25"
+[[bin]]
+name="actor01"
+src="src/actor01.rs"
+[[bin]]
+name="actor02"
+src="src/actor02.rs"
